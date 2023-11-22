@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <!-- show a text in the center of the screen -->
+    <body>
+        <div>
+            {{ langue }}
+        </div>
+        <div class="center">
+            <p class="disquette">{{ disquette }}</p>
+        </div>
+    </body>
+    <style>
+        body {
+            background-color: #ECC4BA;
+        }
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .disquette {
+            font-size: xxx-large;
+            color: #343069;
+            font-weight: bolder;
+        }
+    </style>
+</html>
